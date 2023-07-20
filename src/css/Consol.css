@@ -1,0 +1,15 @@
+#consol img{
+    width: 100px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#consol{
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+#consol img:first-child, #consol img:nth-child(2){
+    margin-right: 20px;
+}
+#consol img:hover{
+    background-color: green;
+}

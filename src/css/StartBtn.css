@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600;700;800&display=swap&effect=fire-animation');
+#startBtn{
+    display: flex;
+    margin-top: 5%;
+    margin-inline: auto;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black solid;
+    color: wheat;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 50px;
+    background-color:#966F33;
+    transition: all 1s;
+}
+#startArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.font-effect-fire-animation{
+    text-align: center;
+    font-family:sans-serif;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size:  50px;
+}
+#startBtn:hover{
+    color: #966F33;
+    background-color: wheat;
+}

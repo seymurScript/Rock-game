@@ -1,0 +1,15 @@
+#cards{
+    width: fit-content;
+    margin-top: 8%;
+    margin-inline:auto;
+    display: flex;
+    gap: 10%;
+}
+#player-win, #bot-win,#player,#bot, #player-score, #bot-score{
+    text-align: center;
+    font-size: 50px;
+}
+.card img{
+    width: 250px;
+    margin: 40px;
+}
